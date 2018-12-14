@@ -13,7 +13,7 @@ def randomLines():
 	for i in range(50000):
 		saida.append(dados[i])
 	
-	fid = open("shuffled_example.csv", "w")
+	fid = open("amostra.csv", "w")
 	fid.writelines(saida)
 	fid.close()
 
