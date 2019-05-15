@@ -1,5 +1,8 @@
 #coding: utf-8
 
+def hello():
+	return "helloworld"
+
 def csvtolist(arquivo,separador):
 	import csv
 	lista = []
